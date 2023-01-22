@@ -5,12 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Ubuntu:wght@500&family=Varela+Round&display=swap" rel="stylesheet">
     <title>Icons Marketplace</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
     <h1 class="hidden">Welcome to the Awesome Icon Marketplace</h1>
-    <div class="container">
-    <nav>
+    <div class="site-container">
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logo.svg" alt="Logo">
+              </div>
+              <form>
+                <input type="text" placeholder="Search icons" id="search-input">
+                <button type="submit"><i class="fas fa-search"></i></button>
+              </form>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Icons</a></li>
@@ -18,65 +33,70 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-      
+    </header>
       
       <div class="icon-grid">
         <div class="icon-card">
-          <img src="img/Icon-1.svg" alt="Icon 1">
-          <p>Icon 1</p>
+          <img src="img/Icon-1.svg" alt="Maracas" class="Icon">
+          <p>Maracas</p>
         </div>
         <div class="icon-card">
-          <img src="img/Icon-2.svg" alt="Icon 2">
-          <p>Icon 2</p>
+          <img src="img/Icon-2.svg" alt="Violin" class="Icon">
+          <p>Violin</p>
         </div>
         <div class="icon-card">
-          <img src="img/Icon-3.svg" alt="Icon 3">
-          <p>Icon 3</p>
+          <img src="img/Icon-3.svg" alt="Trumpet" class="Icon">
+          <p>Trumpet</p>
         </div>
         <div class="icon-card">
-          <img src="img/Icon-4.svg" alt="Icon 4">
-          <p>Icon 4</p>
+          <img src="img/Icon-4.svg" alt="Drum Kit" class="Icon">
+          <p>Drum Kit</p>
         </div>
         <div class="icon-card">
-          <img src="img/Icon-5.svg" alt="Icon 5">
-          <p>Icon 5</p>
+          <img src="img/Icon-5.svg" alt="Guitar" class="Icon">
+          <p>Guitar</p>
         </div>
         <div class="icon-card">
-          <img src="img/Icon-6.svg" alt="Icon 6">
-          <p>Icon 6</p>
+          <img src="img/Icon-6.svg" alt="Piano" class="Icon">
+          <p>Piano</p>
         </div>
         <div class="icon-card">
-          <img src="img/Icon-7.svg" alt="Icon 7">
-          <p>Icon 7</p>
+          <img src="img/Icon-7.svg" alt="Triangle" class="Icon">
+          <p>Triangle</p>
         </div>
         <div class="icon-card">
-          <img src="img/Icon-8.svg" alt="Icon 8">
-          <p>Icon 8</p>
+          <img src="img/Icon-8.svg" alt="Drum" class="Icon">
+          <p>Drum</p>
         </div>
         <div class="icon-card">
-          <img src="img/Icon-9.svg" alt="Icon 9">
-          <p>Icon 9</p>
+          <img src="img/Icon-9.svg" alt="Xylophone" class="Icon">
+          <p>Xylophone</p>
         </div>
         <div class="icon-card">
-          <img src="img/Icon-10.svg" alt="Icon 10">
-          <p>Icon 10</p>
+          <img src="img/Icon-10.svg" alt="Harp" class="Icon">
+          <p>Harp</p>
         </div>
       </div>  
-
-      <footer>
-        <div class="container">
-          <p>Copyright ©2022 Icon Marketplace</p>
-          <div class="social-media-links">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
-          </div>
-        </div>
-      </footer>
-
-    
-    
+      <div>
+        <h2 class="info-text">Click on the icon to download it!</h2>
     </div>
-    
+
+    <footer>
+        <div class="container">
+            <p>Copyright ©2022 Icon Marketplace</p>
+            <form>
+              <input type="email" placeholder="Enter your email" id="email-input">
+              <button type="submit" id="submit-btn">Subsctibe</button>
+            </form>
+            <div class="social-media-links">
+              <a href="#">Facebook</a>
+              <a href="#">Twitter</a>
+              <a href="#">Instagram</a>
+            </div>
+          </div>
+      </footer>
+    </div>
+<script src="https://kit.fontawesome.com/273d23d9c6.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

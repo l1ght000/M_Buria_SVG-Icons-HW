@@ -1,0 +1,164 @@
+
+
+.hidden{
+    display: none;
+}
+
+body{
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.logo {
+    margin-right: auto;
+  }
+
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  header form {
+    display: flex;
+    align-items: center;
+  }
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+
+  .icon-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 85px);
+    grid-gap: 180px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: auto;
+  }
+  
+  .icon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .site-container {
+    display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  footer form {
+    display: flex;
+    align-items: center;
+  }
+
+  #search-input {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  
+  header form button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #email-input {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  
+  #submit-btn {
+    background-color: #ff5a5f;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  #submit-btn:hover {
+    background-color: #ff7f82;
+  }
+  
+  .social-media-links a {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  .social-media-links a:hover {
+    color: #ccc;
+  }
+
+
+  header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .info-text{
+    display: grid;
+    grid-column: 1/-1;
+    text-align: center;
+  font-size: 30px;
+  color: #333;
+  margin-top: 10px;
+  }
+
+  .icon-card:hover {
+    animation: pulse 1s;
+  }
+  
+
+  
